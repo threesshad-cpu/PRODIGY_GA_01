@@ -81,7 +81,7 @@ Configure the Knowledge Base: Ensure your train.txt and prompts.txt are present 
 
 ->Access: Open http://localhost:8501 to enter the terminal interface.
 
-## 🧬 Deployment Link: [https://ai-text-generato-ga-01.streamlit.app/](https://ai-text-generator-ga-01.streamlit.app/)
+## 🧬 Deployment Link: [https://ai-text-generator-ga-01.streamlit.app/](https://ai-text-generator-ga-01.streamlit.app/)
 
 ## Scalability Note:
 
@@ -94,6 +94,7 @@ Configure the Knowledge Base: Ensure your train.txt and prompts.txt are present 
 * **Role:** Generative AI Intern
 * **Organization:** Prodigy InfoTech
 * **Project ID:** PRODIGY_GA_01
+
 
 
 
