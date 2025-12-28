@@ -60,15 +60,15 @@ Built upon a fine-tuned **GPT-2 Medium** backbone, the system utilizes a proprie
 ## 📖 How to Run
 
 1. **Clone the Intelligence Node:**
-   ```bash
+```bash
    git clone [https://github.com/threesshad-cpu/PRODIGY_GA_1.git](https://github.com/threesshad-cpu/PRODIGY_GA_1.git)
    cd PRODIGY_GA_1
-   ```
+```
 2. **Install Dependencies:**
 
 ```Bash
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 Configure the Knowledge Base: Ensure your train.txt and prompts.txt are present in the root directory.
 
@@ -76,7 +76,7 @@ Configure the Knowledge Base: Ensure your train.txt and prompts.txt are present 
 
 ```Bash
 
-streamlit run app.py
+   streamlit run app.py
 ```
 
 ->Access: Open http://localhost:8501 to enter the terminal interface.
@@ -85,13 +85,14 @@ streamlit run app.py
 
 ## Scalability Note:
 
-->This repository is strictly optimized for GitHub-to-Streamlit-Cloud deployment.
-->Model Exclusion: Due to the 1.5GB+ size of fine-tuned GPT-2 weights, the ./model_output/ directory is managed via .gitignore.
-->Cloud Behavior: In the cloud environment, the app leverages its Hybrid Fallback Logic to run the distilgpt2 engine while still utilizing the local train.txt for Ground Truth matching, providing a seamless multi-user experience without massive bandwidth overhead.
+* **This repository is strictly optimized for GitHub-to-Streamlit-Cloud deployment.**
+* **Model Exclusion: Due to the 1.5GB+ size of fine-tuned GPT-2 weights, the ./model_output/ directory is managed via .gitignore.**
+* **Cloud Behavior: In the cloud environment, the app leverages its Hybrid Fallback Logic to run the distilgpt2 engine while still utilizing the local train.txt for Ground Truth matching, providing a seamless multi-user experience without massive bandwidth overhead.**
 
 ## 🤝 Credits
 * **Developer:** Threessha D
 * **Role:** Generative AI Intern
 * **Organization:** Prodigy InfoTech
 * **Project ID:** PRODIGY_GA_01
+
 
