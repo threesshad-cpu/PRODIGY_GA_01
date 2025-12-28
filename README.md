@@ -1,4 +1,4 @@
-# 🔮 Neural Nexus Pro | Cybernetic Intelligence
+# 🌙 Neural Nexus Pro | Cybernetic Intelligence
 
 ### **Enterprise-Grade Text Synthesis & Transformer Visualization Engine**
 
@@ -81,19 +81,17 @@ streamlit run app.py
 
 ->Access: Open http://localhost:8501 to enter the terminal interface.
 
-## 🧬 Deployment Link: 
-& Scalability Note
-This repository is strictly optimized for GitHub-to-Streamlit-Cloud deployment.
+## 🧬 Deployment Link: https://ai-text-generato-ga-01.streamlit.app/
 
-Model Exclusion: Due to the 1.5GB+ size of fine-tuned GPT-2 weights, the ./model_output/ directory is managed via .gitignore.
+## Scalability Note:
 
-Cloud Behavior: In the cloud environment, the app leverages its Hybrid Fallback Logic to run the distilgpt2 engine while still utilizing the local train.txt for Ground Truth matching, providing a seamless multi-user experience without massive bandwidth overhead.
+->This repository is strictly optimized for GitHub-to-Streamlit-Cloud deployment.
+->Model Exclusion: Due to the 1.5GB+ size of fine-tuned GPT-2 weights, the ./model_output/ directory is managed via .gitignore.
+->Cloud Behavior: In the cloud environment, the app leverages its Hybrid Fallback Logic to run the distilgpt2 engine while still utilizing the local train.txt for Ground Truth matching, providing a seamless multi-user experience without massive bandwidth overhead.
 
-🤝 Credits
-Developer: Threessha D
+## 🤝 Credits
+* **Developer:** Threessha D
+* **Role:** Generative AI Intern
+* **Organization:** Prodigy InfoTech
+* **Project ID:** PRODIGY_GA_01
 
-Role: Generative AI Intern
-
-Organization: Prodigy InfoTech
-
-Project ID: PRODIGY_GA_01
